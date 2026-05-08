@@ -1,0 +1,5 @@
+.env
+resultado.xlsx
+__pycache__/
+*.pyc
+resultado*
