@@ -17,7 +17,7 @@ Lê um arquivo `.txt` com uma lista de emails e consulta a API do [BreachDirecto
 ### 1. Clone o repositório (ou baixe os arquivos)
 
 ```bash
-git clone https://github.com/SEU_USUARIO/email-breach-checker.git
+git clone git@github.com:estercarvalhocv/email-breach-checker.git
 cd email-breach-checker
 ```
 
@@ -115,14 +115,6 @@ email-breach-checker/
 - **Free tier**: 10 consultas/mês no plano gratuito do RapidAPI
 - **Delay**: 2 segundos entre requests para respeitar o rate limit
 - **Escopo**: Apenas verificação de emails (CNPJ não implementado nesta POC)
-
-## Próximos Passos
-
-- [ ] Integração com API paga (HaveIBeenPwned) para consultas ilimitadas
-- [ ] Suporte a verificação de CNPJ
-- [ ] Interface web (Streamlit/Flask)
-- [ ] Relatório PDF automatizado
-- [ ] Cache local para evitar consultas repetidas
 
 ## Licença
 
